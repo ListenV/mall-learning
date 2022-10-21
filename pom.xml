@@ -10,7 +10,6 @@
 
     <modules>
         <module>mall-tiny</module>
-        <module>mall-tiny-01</module>
     </modules>
 
 </project>
