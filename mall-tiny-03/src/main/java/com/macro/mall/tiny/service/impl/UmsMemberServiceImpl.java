@@ -23,6 +23,7 @@ public class UmsMemberServiceImpl implements UmsMemberService {
     @Value("${redis.key.expire.authCode}")
     private Long AUTH_CODE_EXPIRE_SECONDS;
 
+    // 生成验证码并保存到Redis
     @Override
     public CommonResult generateAuthCode(String telephone) {
         StringBuilder sb = new StringBuilder();
